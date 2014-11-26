@@ -2,7 +2,7 @@
 * @Author: Geoffrey Bauduin <bauduin.geo@gmail.com>
 * @Date:   2014-11-26 10:22:45
 * @Last Modified by:   Geoffrey Bauduin
-* @Last Modified time: 2014-11-26 10:29:11
+* @Last Modified time: 2014-11-26 10:33:04
 */
 
 (function () {
@@ -10,8 +10,8 @@
 	var express = require("express");
 	var OpenTok = require("opentok");
 
-	var apiKey = "45056622";
-	var apiSecret = "7f15688f07ac0b53e4e3997d218cfe99aa837de9";
+	var apiKey = "";
+	var apiSecret = "";
 	var opentok = new OpenTok(apiKey, apiSecret);
 
 	var app = express();
