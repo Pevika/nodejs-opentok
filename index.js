@@ -30,7 +30,7 @@
 	app.post("/api/opentok", function (req, res) {
 		opentok.createSession(function (error, OTSession) {
 			if (error) {
-				Logger.error(error);
+				console.error(error);
 				res.status(500).send({
 					error: error
 				})
